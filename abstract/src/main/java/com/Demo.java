@@ -7,7 +7,7 @@ public class Demo {
     Hen hen = new Hen();
     ChildChicken childChicken = new ChildChicken();
 
-    System.out.format("100元可以买%s %d只\n", cock.getType(), (int)(100 / cock.getPrice()));
+    cock.outPut();
     System.out.format("100元可以买%s %d只\n", hen.getType(), (int)(100 / hen.getPrice()));
     System.out.format("100元可以买%s %d只\n", childChicken.getType(), (int)(100 / childChicken.getPrice()));
   }
